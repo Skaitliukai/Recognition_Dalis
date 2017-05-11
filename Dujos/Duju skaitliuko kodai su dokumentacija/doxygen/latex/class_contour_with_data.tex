@@ -1,0 +1,76 @@
+\hypertarget{class_contour_with_data}{}\section{Contour\+With\+Data Class Reference}
+\label{class_contour_with_data}\index{Contour\+With\+Data@{Contour\+With\+Data}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_contour_with_data_a101e8ba37599c061008c6ab8812a48f8}{check\+If\+Contour\+Is\+Valid} (\hyperlink{class_possible_char}{Possible\+Char} \&possible\+Char)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_contour_with_data_a467efdd6adb42badb28de1398b269d1f}{sort\+By\+Bounding\+Rect\+X\+Position} (const \hyperlink{class_contour_with_data}{Contour\+With\+Data} \&cwd\+Left, const \hyperlink{class_contour_with_data}{Contour\+With\+Data} \&cwd\+Right)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ cv\+::\+Point $>$ \hyperlink{class_contour_with_data_a28f63c52d8383623adc00e4481e6b9aa}{pt\+Contour}
+\begin{DoxyCompactList}\small\item\em Vektoriaus tipo kintamasis, laiko savyje konturus. \end{DoxyCompactList}\item 
+cv\+::\+Rect \hyperlink{class_contour_with_data_ab2bebe42d7353d50fe515bd25c561247}{bounding\+Rect}
+\begin{DoxyCompactList}\small\item\em Rect tipo kintamasis, kuris turi savyje konturo apvadus. \end{DoxyCompactList}\item 
+float \hyperlink{class_contour_with_data_a640536a3a32dd02f85e6a5f70ddfe7e3}{flt\+Area}
+\begin{DoxyCompactList}\small\item\em Float tipo kintamasis, savyje laiko konturo plota. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_contour_with_data_a101e8ba37599c061008c6ab8812a48f8}\label{class_contour_with_data_a101e8ba37599c061008c6ab8812a48f8}} 
+\index{Contour\+With\+Data@{Contour\+With\+Data}!check\+If\+Contour\+Is\+Valid@{check\+If\+Contour\+Is\+Valid}}
+\index{check\+If\+Contour\+Is\+Valid@{check\+If\+Contour\+Is\+Valid}!Contour\+With\+Data@{Contour\+With\+Data}}
+\subsubsection{\texorpdfstring{check\+If\+Contour\+Is\+Valid()}{checkIfContourIsValid()}}
+{\footnotesize\ttfamily bool Contour\+With\+Data\+::check\+If\+Contour\+Is\+Valid (\begin{DoxyParamCaption}\item[{\hyperlink{class_possible_char}{Possible\+Char} \&}]{possible\+Char }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metodas tikrinti ar konturas panasus i skaiciu,
+
+Paima kontura ir tikrina atitinka minimalu plota, ar jis yra simbolio formos. Jei praeina kriterijus grazina true, jei ne false \mbox{\Hypertarget{class_contour_with_data_a467efdd6adb42badb28de1398b269d1f}\label{class_contour_with_data_a467efdd6adb42badb28de1398b269d1f}} 
+\index{Contour\+With\+Data@{Contour\+With\+Data}!sort\+By\+Bounding\+Rect\+X\+Position@{sort\+By\+Bounding\+Rect\+X\+Position}}
+\index{sort\+By\+Bounding\+Rect\+X\+Position@{sort\+By\+Bounding\+Rect\+X\+Position}!Contour\+With\+Data@{Contour\+With\+Data}}
+\subsubsection{\texorpdfstring{sort\+By\+Bounding\+Rect\+X\+Position()}{sortByBoundingRectXPosition()}}
+{\footnotesize\ttfamily static bool Contour\+With\+Data\+::sort\+By\+Bounding\+Rect\+X\+Position (\begin{DoxyParamCaption}\item[{const \hyperlink{class_contour_with_data}{Contour\+With\+Data} \&}]{cwd\+Left,  }\item[{const \hyperlink{class_contour_with_data}{Contour\+With\+Data} \&}]{cwd\+Right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Metodas rikiuoja konturus pagal x koordinate is kaires i desine 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_contour_with_data_ab2bebe42d7353d50fe515bd25c561247}\label{class_contour_with_data_ab2bebe42d7353d50fe515bd25c561247}} 
+\index{Contour\+With\+Data@{Contour\+With\+Data}!bounding\+Rect@{bounding\+Rect}}
+\index{bounding\+Rect@{bounding\+Rect}!Contour\+With\+Data@{Contour\+With\+Data}}
+\subsubsection{\texorpdfstring{bounding\+Rect}{boundingRect}}
+{\footnotesize\ttfamily cv\+::\+Rect Contour\+With\+Data\+::bounding\+Rect}
+
+
+
+Rect tipo kintamasis, kuris turi savyje konturo apvadus. 
+
+\mbox{\Hypertarget{class_contour_with_data_a640536a3a32dd02f85e6a5f70ddfe7e3}\label{class_contour_with_data_a640536a3a32dd02f85e6a5f70ddfe7e3}} 
+\index{Contour\+With\+Data@{Contour\+With\+Data}!flt\+Area@{flt\+Area}}
+\index{flt\+Area@{flt\+Area}!Contour\+With\+Data@{Contour\+With\+Data}}
+\subsubsection{\texorpdfstring{flt\+Area}{fltArea}}
+{\footnotesize\ttfamily float Contour\+With\+Data\+::flt\+Area}
+
+
+
+Float tipo kintamasis, savyje laiko konturo plota. 
+
+\mbox{\Hypertarget{class_contour_with_data_a28f63c52d8383623adc00e4481e6b9aa}\label{class_contour_with_data_a28f63c52d8383623adc00e4481e6b9aa}} 
+\index{Contour\+With\+Data@{Contour\+With\+Data}!pt\+Contour@{pt\+Contour}}
+\index{pt\+Contour@{pt\+Contour}!Contour\+With\+Data@{Contour\+With\+Data}}
+\subsubsection{\texorpdfstring{pt\+Contour}{ptContour}}
+{\footnotesize\ttfamily std\+::vector$<$cv\+::\+Point$>$ Contour\+With\+Data\+::pt\+Contour}
+
+
+
+Vektoriaus tipo kintamasis, laiko savyje konturus. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Numbers/\hyperlink{_recognition_8cpp}{Recognition.\+cpp}\end{DoxyCompactItemize}

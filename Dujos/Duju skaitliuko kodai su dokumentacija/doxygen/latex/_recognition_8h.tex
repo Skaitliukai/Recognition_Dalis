@@ -1,0 +1,147 @@
+\hypertarget{_recognition_8h}{}\section{C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Numbers/\+Recognition.h File Reference}
+\label{_recognition_8h}\index{C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Numbers/\+Recognition.\+h@{C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Numbers/\+Recognition.\+h}}
+{\ttfamily \#include $<$opencv2/core/core.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/highgui/highgui.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/imgproc/imgproc.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/ml/ml.\+hpp$>$}\newline
+{\ttfamily \#include \char`\"{}Possible\+Char.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{_recognition_8h_a454eb7971ce5fe4b21a7316efd4ca7a3}{check\+If\+Possible\+Char} (\hyperlink{class_possible_char}{Possible\+Char} \&possible\+Char)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{_recognition_8h_a744f8b1cf5ff3dcf0b57bad904013146}{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH} = 2
+\item 
+const int \hyperlink{_recognition_8h_a6b33dcb9db93f70203e09e3b02a7d362}{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT} = 8
+\item 
+const double \hyperlink{_recognition_8h_afe22aa2f3ef37158688466d45c413773}{M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO} = 0.\+25
+\item 
+const double \hyperlink{_recognition_8h_a6183736dafdf51f2e96c478517655766}{M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO} = 1.\+0
+\item 
+const int \hyperlink{_recognition_8h_aeddad6cec21433d491b653ef854cb1f6}{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA} = 80
+\item 
+const double \hyperlink{_recognition_8h_ae41cce5ec30de519ae2b47907430bc8c}{M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY} = 0.\+3
+\item 
+const double \hyperlink{_recognition_8h_abfeac3cf8a323bd74fa26e579e7b63ec}{M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY} = 5.\+0
+\item 
+const double \hyperlink{_recognition_8h_a56d7506290682fe422d96f864444b887}{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA} = 0.\+5
+\item 
+const double \hyperlink{_recognition_8h_ab6e7e34476624f8eb3039f1216362706}{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH} = 0.\+8
+\item 
+const double \hyperlink{_recognition_8h_ad08d85572e125eaf173a559d4d3342c3}{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT} = 0.\+2
+\item 
+const double \hyperlink{_recognition_8h_a5e3280c8b69cf8abecc8bcf1fa80fe19}{M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS} = 12.\+0
+\item 
+const int \hyperlink{_recognition_8h_a64c1fe738aa8da4c035a3da5f1f9fcf5}{M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS} = 3
+\item 
+const int \hyperlink{_recognition_8h_ac4d020ebf41d06b2d243f0e4bf17f0ec}{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH} = 20
+\item 
+const int \hyperlink{_recognition_8h_ad4773772f647e74e863d1adf815c51bc}{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT} = 30
+\item 
+cv\+::\+Ptr$<$ cv\+::ml\+::\+K\+Nearest $>$ \hyperlink{_recognition_8h_a565587f9bb7398559b1f875723de8397}{k\+Nearest}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_recognition_8h_a454eb7971ce5fe4b21a7316efd4ca7a3}\label{_recognition_8h_a454eb7971ce5fe4b21a7316efd4ca7a3}} 
+\index{Recognition.\+h@{Recognition.\+h}!check\+If\+Possible\+Char@{check\+If\+Possible\+Char}}
+\index{check\+If\+Possible\+Char@{check\+If\+Possible\+Char}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{check\+If\+Possible\+Char()}{checkIfPossibleChar()}}
+{\footnotesize\ttfamily bool check\+If\+Possible\+Char (\begin{DoxyParamCaption}\item[{\hyperlink{class_possible_char}{Possible\+Char} \&}]{possible\+Char }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_recognition_8h_a565587f9bb7398559b1f875723de8397}\label{_recognition_8h_a565587f9bb7398559b1f875723de8397}} 
+\index{Recognition.\+h@{Recognition.\+h}!k\+Nearest@{k\+Nearest}}
+\index{k\+Nearest@{k\+Nearest}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{k\+Nearest}{kNearest}}
+{\footnotesize\ttfamily cv\+::\+Ptr$<$cv\+::ml\+::\+K\+Nearest$>$ k\+Nearest}
+
+\mbox{\Hypertarget{_recognition_8h_a5e3280c8b69cf8abecc8bcf1fa80fe19}\label{_recognition_8h_a5e3280c8b69cf8abecc8bcf1fa80fe19}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS@{M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS}}
+\index{M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS@{M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS}{MAX\_ANGLE\_BETWEEN\_CHARS}}
+{\footnotesize\ttfamily const double M\+A\+X\+\_\+\+A\+N\+G\+L\+E\+\_\+\+B\+E\+T\+W\+E\+E\+N\+\_\+\+C\+H\+A\+RS = 12.\+0}
+
+\mbox{\Hypertarget{_recognition_8h_a6183736dafdf51f2e96c478517655766}\label{_recognition_8h_a6183736dafdf51f2e96c478517655766}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO@{M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO}}
+\index{M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO@{M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO}{MAX\_ASPECT\_RATIO}}
+{\footnotesize\ttfamily const double M\+A\+X\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO = 1.\+0}
+
+\mbox{\Hypertarget{_recognition_8h_a56d7506290682fe422d96f864444b887}\label{_recognition_8h_a56d7506290682fe422d96f864444b887}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA@{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA}}
+\index{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA@{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA}{MAX\_CHANGE\_IN\_AREA}}
+{\footnotesize\ttfamily const double M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+A\+R\+EA = 0.\+5}
+
+\mbox{\Hypertarget{_recognition_8h_ad08d85572e125eaf173a559d4d3342c3}\label{_recognition_8h_ad08d85572e125eaf173a559d4d3342c3}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT@{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT}}
+\index{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT@{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT}{MAX\_CHANGE\_IN\_HEIGHT}}
+{\footnotesize\ttfamily const double M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+H\+E\+I\+G\+HT = 0.\+2}
+
+\mbox{\Hypertarget{_recognition_8h_ab6e7e34476624f8eb3039f1216362706}\label{_recognition_8h_ab6e7e34476624f8eb3039f1216362706}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH@{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH}}
+\index{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH@{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH}{MAX\_CHANGE\_IN\_WIDTH}}
+{\footnotesize\ttfamily const double M\+A\+X\+\_\+\+C\+H\+A\+N\+G\+E\+\_\+\+I\+N\+\_\+\+W\+I\+D\+TH = 0.\+8}
+
+\mbox{\Hypertarget{_recognition_8h_abfeac3cf8a323bd74fa26e579e7b63ec}\label{_recognition_8h_abfeac3cf8a323bd74fa26e579e7b63ec}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY@{M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY}}
+\index{M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY@{M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY}{MAX\_DIAG\_SIZE\_MULTIPLE\_AWAY}}
+{\footnotesize\ttfamily const double M\+A\+X\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY = 5.\+0}
+
+\mbox{\Hypertarget{_recognition_8h_afe22aa2f3ef37158688466d45c413773}\label{_recognition_8h_afe22aa2f3ef37158688466d45c413773}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO@{M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO}}
+\index{M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO@{M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO}{MIN\_ASPECT\_RATIO}}
+{\footnotesize\ttfamily const double M\+I\+N\+\_\+\+A\+S\+P\+E\+C\+T\+\_\+\+R\+A\+T\+IO = 0.\+25}
+
+\mbox{\Hypertarget{_recognition_8h_ae41cce5ec30de519ae2b47907430bc8c}\label{_recognition_8h_ae41cce5ec30de519ae2b47907430bc8c}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY@{M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY}}
+\index{M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY@{M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY}{MIN\_DIAG\_SIZE\_MULTIPLE\_AWAY}}
+{\footnotesize\ttfamily const double M\+I\+N\+\_\+\+D\+I\+A\+G\+\_\+\+S\+I\+Z\+E\+\_\+\+M\+U\+L\+T\+I\+P\+L\+E\+\_\+\+A\+W\+AY = 0.\+3}
+
+\mbox{\Hypertarget{_recognition_8h_a64c1fe738aa8da4c035a3da5f1f9fcf5}\label{_recognition_8h_a64c1fe738aa8da4c035a3da5f1f9fcf5}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS@{M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS}}
+\index{M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS@{M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS}{MIN\_NUMBER\_OF\_MATCHING\_CHARS}}
+{\footnotesize\ttfamily const int M\+I\+N\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+A\+T\+C\+H\+I\+N\+G\+\_\+\+C\+H\+A\+RS = 3}
+
+\mbox{\Hypertarget{_recognition_8h_aeddad6cec21433d491b653ef854cb1f6}\label{_recognition_8h_aeddad6cec21433d491b653ef854cb1f6}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA@{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA}}
+\index{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA@{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA}{MIN\_PIXEL\_AREA}}
+{\footnotesize\ttfamily const int M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+A\+R\+EA = 80}
+
+\mbox{\Hypertarget{_recognition_8h_a6b33dcb9db93f70203e09e3b02a7d362}\label{_recognition_8h_a6b33dcb9db93f70203e09e3b02a7d362}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT@{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT}}
+\index{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT@{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT}{MIN\_PIXEL\_HEIGHT}}
+{\footnotesize\ttfamily const int M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+H\+E\+I\+G\+HT = 8}
+
+\mbox{\Hypertarget{_recognition_8h_a744f8b1cf5ff3dcf0b57bad904013146}\label{_recognition_8h_a744f8b1cf5ff3dcf0b57bad904013146}} 
+\index{Recognition.\+h@{Recognition.\+h}!M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH@{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH}}
+\index{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH@{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH}{MIN\_PIXEL\_WIDTH}}
+{\footnotesize\ttfamily const int M\+I\+N\+\_\+\+P\+I\+X\+E\+L\+\_\+\+W\+I\+D\+TH = 2}
+
+\mbox{\Hypertarget{_recognition_8h_ad4773772f647e74e863d1adf815c51bc}\label{_recognition_8h_ad4773772f647e74e863d1adf815c51bc}} 
+\index{Recognition.\+h@{Recognition.\+h}!R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT}}
+\index{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT}{RESIZED\_CHAR\_IMAGE\_HEIGHT}}
+{\footnotesize\ttfamily const int R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT = 30}
+
+\mbox{\Hypertarget{_recognition_8h_ac4d020ebf41d06b2d243f0e4bf17f0ec}\label{_recognition_8h_ac4d020ebf41d06b2d243f0e4bf17f0ec}} 
+\index{Recognition.\+h@{Recognition.\+h}!R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH}}
+\index{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH}!Recognition.\+h@{Recognition.\+h}}
+\subsubsection{\texorpdfstring{R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH}{RESIZED\_CHAR\_IMAGE\_WIDTH}}
+{\footnotesize\ttfamily const int R\+E\+S\+I\+Z\+E\+D\+\_\+\+C\+H\+A\+R\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH = 20}
+

@@ -1,0 +1,63 @@
+\hypertarget{_recognition_8cpp}{}\section{C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Digital/\+Recognition.cpp File Reference}
+\label{_recognition_8cpp}\index{C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Digital/\+Recognition.\+cpp@{C\+:/\+Users/\+Sharas/\+Documents/\+Visual Studio 2015/\+Projects/\+Open\+C\+V\+\_\+\+Digital/\+Recognition.\+cpp}}
+{\ttfamily \#include $<$opencv2/core/core.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/highgui/highgui.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/imgproc/imgproc.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/ml/ml.\+hpp$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include \char`\"{}Possible\+Char.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Recognition.\+h\char`\"{}}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_contour_with_data}{Contour\+With\+Data}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_recognition_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{_recognition_8cpp_a857849e9388791cb725ab8ad541002e3}{M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA} = 750
+\begin{DoxyCompactList}\small\item\em Minimalus plotas konturo, kad ji laikytume simboliu. \end{DoxyCompactList}\item 
+const int \hyperlink{_recognition_8cpp_a3cc1663820bb978e396a3e56222d2e31}{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH} = 20
+\item 
+const int \hyperlink{_recognition_8cpp_a62612b09bbddc2231deace193108338e}{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT} = 30
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_recognition_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_recognition_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Recognition.\+cpp@{Recognition.\+cpp}!main@{main}}
+\index{main@{main}!Recognition.\+cpp@{Recognition.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+main metodas atlieka didziaja dali programos funkciju, grayscale, threshold gavimas, morfologines funkcijos, contours\+With\+Data kvietimas ir simboliu ieskojimas, gautu simboliu isvedimas
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_recognition_8cpp_a857849e9388791cb725ab8ad541002e3}\label{_recognition_8cpp_a857849e9388791cb725ab8ad541002e3}} 
+\index{Recognition.\+cpp@{Recognition.\+cpp}!M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA@{M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA}}
+\index{M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA@{M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA}!Recognition.\+cpp@{Recognition.\+cpp}}
+\subsubsection{\texorpdfstring{M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA}{MIN\_CONTOUR\_AREA}}
+{\footnotesize\ttfamily const int M\+I\+N\+\_\+\+C\+O\+N\+T\+O\+U\+R\+\_\+\+A\+R\+EA = 750}
+
+
+
+Minimalus plotas konturo, kad ji laikytume simboliu. 
+
+\mbox{\Hypertarget{_recognition_8cpp_a62612b09bbddc2231deace193108338e}\label{_recognition_8cpp_a62612b09bbddc2231deace193108338e}} 
+\index{Recognition.\+cpp@{Recognition.\+cpp}!R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT}}
+\index{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT}!Recognition.\+cpp@{Recognition.\+cpp}}
+\subsubsection{\texorpdfstring{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT}{RESIZED\_IMAGE\_HEIGHT}}
+{\footnotesize\ttfamily const int R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+H\+E\+I\+G\+HT = 30}
+
+\mbox{\Hypertarget{_recognition_8cpp_a3cc1663820bb978e396a3e56222d2e31}\label{_recognition_8cpp_a3cc1663820bb978e396a3e56222d2e31}} 
+\index{Recognition.\+cpp@{Recognition.\+cpp}!R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH}}
+\index{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH@{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH}!Recognition.\+cpp@{Recognition.\+cpp}}
+\subsubsection{\texorpdfstring{R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH}{RESIZED\_IMAGE\_WIDTH}}
+{\footnotesize\ttfamily const int R\+E\+S\+I\+Z\+E\+D\+\_\+\+I\+M\+A\+G\+E\+\_\+\+W\+I\+D\+TH = 20}
+
